@@ -14,7 +14,7 @@ $ npm i
 $ npm run build
 ```
 
-### TEstnet private Key with preloaded godwoken l2 tokens
+### Meta mask TEstnet private Key with preloaded godwoken l2 tokens
 
 826359f55d241ff8ba0219c211123ae3a890ddd5f60e1f73d5d1c4c34a42abcf
 
