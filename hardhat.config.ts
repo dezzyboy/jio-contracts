@@ -29,7 +29,7 @@ let config: HardhatUserConfig = {
       url: `https://godwoken-testnet-web3-v1-rpc.ckbapp.dev`,
       chainId: 868455272153094,
       accounts: [`${process.env.PRIVATE_KEY}`],
-      deploy: ["./deploy/god/"],
+      deploy: ["./deploy/godwoken_test/"],
       // godwokenConfig: {
       //   privateKey:
       //     "826359f55d241ff8ba0219c211123ae3a890ddd5f60e1f73d5d1c4c34a42abcf",
