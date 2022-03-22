@@ -7,7 +7,6 @@ node_modules/*
 .idea/*
 .eslintcache
 docs
-deploy/*
 
 ### macOS ###
 # General
