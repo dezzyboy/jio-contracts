@@ -20,16 +20,22 @@ if (process.env.HARDHAT_FORK) {
 }
 
 let config: HardhatUserConfig = {
-  defaultNetwork: "GW_v1",
+  defaultNetwork: "emerald_test",
   networks: {
     hardhat: {
       deploy: ["./deploy/mainnet/"],
     },
-    GW_v1: {
+    emerald_test: {
+      url: `https://testnet.emerald.oasis.dev`,
+      chainId: 42261,
+      accounts: [`${process.env.PRIVATE_KEY}`],
+      deploy: ["./deploy/emerald_test"],
+    },
+    godwoken: {
       url: `https://godwoken-testnet-web3-v1-rpc.ckbapp.dev`,
       chainId: 868455272153094,
       accounts: [`${process.env.PRIVATE_KEY}`],
-      deploy: ["./deploy/godwoken_test/"],
+      deploy: ["./deploy/godwoken"],
       // godwokenConfig: {
       //   privateKey:
       //     "826359f55d241ff8ba0219c211123ae3a890ddd5f60e1f73d5d1c4c34a42abcf",
@@ -37,6 +43,12 @@ let config: HardhatUserConfig = {
       //   ethAccountLockCodeHash: "",
       //   delayAfterDeploy: true,
       // },
+    },
+    aurora_test: {
+      url: "https://testnet.aurora.dev/",
+      chainId: 1313161555,
+      accounts: [`${process.env.PRIVATE_KEY}`],
+      deploy: ["./deploy/aurora/"],
     },
     ftmmain: {
       url: "https://rpc.ftm.tools/",
@@ -80,6 +92,12 @@ let config: HardhatUserConfig = {
       url: "https://arb1.arbitrum.io/rpc",
       gasPrice: ethers.utils.parseUnits("2", "gwei").toNumber(),
       deploy: ["./deploy/arbitrum/"],
+    },
+    rinkeby: {
+      url: "https://rinkeby.infura.io/v3/17d2d8676a294d9bb00a829f2ff785cf",
+      chainId: 4,
+      accounts: [`${process.env.PRIVATE_KEY}`],
+      deploy: ["./deploy/rinkeby/"],
     },
   },
   paths: {

@@ -9,7 +9,10 @@ export const CHAIN_ID = {
   ARBITRUM_MAINNET: "42161",
   ARBITRUM_TESTNET: "421611",
   GW_TEST: "71393",
-  GW_v1: "868455272153094",
+  GODWOKEN: "868455272153094",
+  RINKEBY: "4",
+  AURORA_TEST: "1313161555",
+  Emerald_TEST: "42261",
 }
 
 export function isMainnet(networkId: string): boolean {
@@ -28,6 +31,9 @@ export function isTestNetwork(networkId: string): boolean {
     networkId == CHAIN_ID.KOVAN ||
     networkId == CHAIN_ID.ARBITRUM_TESTNET ||
     networkId == CHAIN_ID.GW_TEST ||
-    networkId == CHAIN_ID.GW_v1
+    networkId == CHAIN_ID.GODWOKEN ||
+    networkId == CHAIN_ID.RINKEBY ||
+    networkId == CHAIN_ID.AURORA_TEST ||
+    networkId == CHAIN_ID.Emerald_TEST
   )
 }

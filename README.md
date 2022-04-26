@@ -14,7 +14,7 @@ $ npm i
 $ npm run build
 ```
 
- Deployed TEst contracts on Godwoken
+ Deployed tesnet contracts on Godwoken
 ┌─────────┬────────────────────────┬──────────────────────────────────────────────┐
 │ (index) │           0            │                      1                       │
 ├─────────┼────────────────────────┼──────────────────────────────────────────────┤
@@ -44,4 +44,62 @@ $ npm run build
 │   23    │       'Vesting'        │ '0x5901bD492d18EF81228F782De2FBBf74ceCEDAdd' │
 │   24    │         'JIO'          │ '0xEBb9863a619B5DF1cAfA0De7C64aC1c0553285D5' │
 │   25    │      'MiniChefV2'      │ '0xB5b248AfdA831681c58143bc40927e5bA1071981' │
+└─────────┴────────────────────────┴──────────────────────────────────────────────┘
+
+Deployed testnet contracts on FTM
+┌─────────┬──────────────────────┬──────────────────────────────────────────────┐
+│ (index) │          0           │                      1                       │
+├─────────┼──────────────────────┼──────────────────────────────────────────────┤
+│    0    │ 'AmplificationUtils' │ '0x1da9a5236EC057815E0De238aDcBB80A6a394010' │
+│    1    │        'BUSD'        │ '0x70eFd867D93EEd9CF2367Fa9F3F80794744530d0' │
+│    2    │        'DAI'         │ '0xA64c2a4470708c4709654Dd0363D3A48F9bB656c' │
+│    3    │    'JioUSD4Pool'     │ '0x9790306Fd108DdEF81B06AAB21dD79c362BD15ab' │
+│    4    │ 'JioUSD4PoolLPToken' │ '0xbBc575276C6f0A0E485206ADd224d30A7d53a4ca' │
+│    5    │     'JioUSDPool'     │ '0x07A31A5798a54EC519246A651B091f60Ce8e8404' │
+│    6    │ 'JioUSDPoolLPToken'  │ '0x036CADABB29894988bA61Cb641C2b6CbC82Cea9f' │
+│    7    │      'LPToken'       │ '0x8054dF275eb3Fb653Ad0D478881444cbFA09AC98' │
+│    8    │   'MetaSwapUtils'    │ '0xFE13260cB4Eb9A99D69BcDdcfA5DC2e68e0865a5' │
+│    9    │     'Multicall'      │ '0xD696Fa4E3a92811618aE97d3eb10F8143227C503' │
+│   10    │     'Multicall2'     │ '0x2e48A8b5b7AF3B95f361103E0b8768FA3C22A786' │
+│   11    │        'Swap'        │ '0x06754E7f21E357456C67Dfd3eD3Fc2993b5e3ff7' │
+│   12    │    'SwapDeployer'    │ '0x8aF1ffcdcD0d71af660eDE28140bA5eB58e5d184' │
+│   13    │   'SwapFlashLoan'    │ '0xD322739d031a0b3a2F4F820CA8f81c9aD378E559' │
+│   14    │     'SwapUtils'      │ '0x9dC298C1Fbd9c3B450C070C6435F9199e33ce6Bf' │
+│   15    │        'USDC'        │ '0xdACE8b0f5B51F5C36dAFA073967DE7bda2d39bAc' │
+│   16    │        'USDT'        │ '0xfDe53bc19Ed094Dfa234E9789Ed938F009495C88' │
+│   17    │      'Vesting'       │ '0x95a995b040C1a7389b929146DcD83C4c31f41A9F' │
+│   18    │        'JIO'         │ '0xA579Fe24520180f9A42Eb00761b9E72aaAA25C95' │
+│   19    │     'MiniChefV2'     │ '0x4aF90cF00DC74062c33F9Fd17Ba8aA8AB85379dA' │
+└─────────┴──────────────────────┴──────────────────────────────────────────────┘
+
+ Deployed contracts on Emerald Oasis Network
+┌─────────┬────────────────────────┬──────────────────────────────────────────────┐
+│ (index) │           0            │                      1                       │
+├─────────┼────────────────────────┼──────────────────────────────────────────────┤
+│    0    │      'LPTokenV1'       │ '0x8054dF275eb3Fb653Ad0D478881444cbFA09AC98' │
+│    1    │       'LPToken'        │ '0xFA524D37bF59E8560cA5752E0cc6839e927a8571' │
+│    2    │ 'AmplificationUtilsV1' │ '0xFE13260cB4Eb9A99D69BcDdcfA5DC2e68e0865a5' │
+│    3    │  'AmplificationUtils'  │ '0x9dC298C1Fbd9c3B450C070C6435F9199e33ce6Bf' │
+│    4    │    'MetaSwapUtils'     │ '0x8aF1ffcdcD0d71af660eDE28140bA5eB58e5d184' │
+│    5    │     'SwapUtilsV1'      │ '0x06754E7f21E357456C67Dfd3eD3Fc2993b5e3ff7' │
+│    6    │      'SwapUtils'       │ '0xD322739d031a0b3a2F4F820CA8f81c9aD378E559' │
+│    7    │    'SwapDeployerV1'    │ '0xA64c2a4470708c4709654Dd0363D3A48F9bB656c' │
+│    8    │     'SwapDeployer'     │ '0xdACE8b0f5B51F5C36dAFA073967DE7bda2d39bAc' │
+│    9    │        'SwapV1'        │ '0x70eFd867D93EEd9CF2367Fa9F3F80794744530d0' │
+│   10    │         'Swap'         │ '0xD696Fa4E3a92811618aE97d3eb10F8143227C503' │
+│   11    │   'SwapFlashLoanV1'    │ '0x2e48A8b5b7AF3B95f361103E0b8768FA3C22A786' │
+│   12    │    'SwapFlashLoan'     │ '0xfDe53bc19Ed094Dfa234E9789Ed938F009495C88' │
+│   13    │         'DAI'          │ '0x19036dB19741F242DAc16818301249dAFf2DE454' │
+│   14    │         'USDC'         │ '0x95a995b040C1a7389b929146DcD83C4c31f41A9F' │
+│   15    │         'BUSD'         │ '0x4aF90cF00DC74062c33F9Fd17Ba8aA8AB85379dA' │
+│   16    │      'Multicall'       │ '0xd8e8A625D9B2b635e94E85f2233c73CfD2247bd1' │
+│   17    │      'Multicall2'      │ '0xc6DE58C2917b3d2b79ddED4f2bf7aD94EC0b5759' │
+│   18    │         'USDT'         │ '0x4b9C66D08960C5785E698F934FBbBaFd2E605A53' │
+│   19    │     'JioUSD4Pool'      │ '0xb0e46279859906EDB715dDAB177B2c9d0c99a42e' │
+│   20    │  'JioUSD4PoolLPToken'  │ '0xdEE02B18617597Ab33E3fBe3822CBd3FbE6Cee53' │
+│   21    │      'JioUSDPool'      │ '0xC063dc6B24d6b9a45E891239E6670117031D8fb1' │
+│   22    │  'JioUSDPoolLPToken'   │ '0xeDFD35F8150119429e5CfF4B6c6148b26F93ddaA' │
+│   23    │       'Vesting'        │ '0xB73fBd0c9198455473de7426923183167A32D05e' │
+│   24    │         'JIO'          │ '0xd0d796710d05FF71040B6dfb965Bd73e87b7F3B7' │
+│   25    │      'MiniChefV2'      │ '0x7e8385A47b7A13eb7f83e2cD4a26F05D6076574e' │
 └─────────┴────────────────────────┴──────────────────────────────────────────────┘
