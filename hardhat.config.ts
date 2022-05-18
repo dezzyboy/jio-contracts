@@ -20,10 +20,16 @@ if (process.env.HARDHAT_FORK) {
 }
 
 let config: HardhatUserConfig = {
-  defaultNetwork: "emerald_test",
+  defaultNetwork: "meter_test",
   networks: {
     hardhat: {
       deploy: ["./deploy/mainnet/"],
+    },
+    meter_test: {
+      url: `https://rpctest.meter.io/`,
+      chainId: 83,
+      accounts: [`${process.env.PRIVATE_KEY}`],
+      deploy: ["./deploy/meter_test"],
     },
     emerald_test: {
       url: `https://testnet.emerald.oasis.dev`,
@@ -38,7 +44,7 @@ let config: HardhatUserConfig = {
       deploy: ["./deploy/godwoken"],
       // godwokenConfig: {
       //   privateKey:
-      //     "826359f55d241ff8ba0219c211123ae3a890ddd5f60e1f73d5d1c4c34a42abcf",
+      //     "",
       //   rollupTypeHash: "",
       //   ethAccountLockCodeHash: "",
       //   delayAfterDeploy: true,
