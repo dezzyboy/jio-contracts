@@ -103,3 +103,27 @@ Deployed testnet contracts on FTM
 │   24    │         'JIO'          │ '0xd0d796710d05FF71040B6dfb965Bd73e87b7F3B7' │
 │   25    │      'MiniChefV2'      │ '0x7e8385A47b7A13eb7f83e2cD4a26F05D6076574e' │
 └─────────┴────────────────────────┴──────────────────────────────────────────────┘
+
+METER CHAIN
+
+  0    │      'LPToken'       │ '0xE7cA5ea1dAc43976cD511E2e0dB73Ad567668E05' │
+│    1    │ 'AmplificationUtils' │ '0xe135Db210DfDb2e5beCbB01C86cc48BE3bd1D045' │
+│    2    │   'MetaSwapUtils'    │ '0xd8682D533736EeE80f5e020899EcACEf8BcbAb93' │
+│    3    │     'SwapUtils'      │ '0x2910F6077534464e34c39255edB7d5175B1e366C' │
+│    4    │    'SwapDeployer'    │ '0xA5098a96fDeeF5fbAF79f6A8A7dcf39B13D293F7' │
+│    5    │        'Swap'        │ '0x94B863e3aB139C65A1981F60D3cbec01397d73E9' │
+│    6    │   'SwapFlashLoan'    │ '0xEb06611986317fEb96284523099D218e6C55A8F7' │
+│    7    │        'DAI'         │ '0x6D942D2503cDcf996f6B7319187Caea7C9e19107' │
+│    8    │        'USDC'        │ '0x55E6942310d9644c36a4fe33943c4a1380aCdd53' │
+│    9    │        'BUSD'        │ '0xA7c7AC379c8C8d8dD50AEE80B6985De4651bCf71' │
+│   10    │     'Multicall'      │ '0x7c07f4B5D786e8283eD907F58337c82fD131389b' │
+│   11    │     'Multicall2'     │ '0x145199e6Ecb93A638DED7852A87965bCBb57C206' │
+│   12    │        'USDT'        │ '0x0fea846C1A01E1c30689cb3CcbA74C8F3183e43e' │
+│   13    │    'JioUSD4Pool'     │ '0xcbb5D150A9D1F633eB47AE11070eC59Cb71A6d2f' │
+│   14    │ 'JioUSD4PoolLPToken' │ '0xbf415387d113fd5Ef74B6d756e1d9d8657A4902d' │
+│   15    │     'JioUSDPool'     │ '0x3c32a20087F31978b2126F32833458033439EC4d' │
+│   16    │ 'JioUSDPoolLPToken'  │ '0xAFD987b06662694B1d2F0e25DafD8b030DE56123' │
+│   17    │      'Vesting'       │ '0xb2d92847cdc132Fe0059d8E803b283096CBAEC5c' │
+│   18    │        'JIO'         │ '0x57119CF1030F9845d96567da8F8C3e41B4303aaD' │
+│   19    │     'MiniChefV2'     │ '0x824bEE671ae37Bf583E18A7E1060A902aE2FdAaA' │
+└─────────┴──────────────────────┴─────────────────────────────────────────────
