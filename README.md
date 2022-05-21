@@ -14,7 +14,7 @@ $ npm i
 $ npm run build
 ```
 
- Deployed tesnet contracts on Godwoken
+``` Deployed tesnet contracts on Godwoken
 ┌─────────┬────────────────────────┬──────────────────────────────────────────────┐
 │ (index) │           0            │                      1                       │
 ├─────────┼────────────────────────┼──────────────────────────────────────────────┤
