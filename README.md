@@ -1,5 +1,13 @@
 # jioswap-contract-deployement
 
+
+for testing purposes you can import the private key below to get access to test tokens
+
+
+```
+826359f55d241ff8ba0219c211123ae3a890ddd5f60e1f73d5d1c4c34a42abcf
+```
+
 ## Installation
 
 ```bash
