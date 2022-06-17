@@ -20,7 +20,7 @@ if (process.env.HARDHAT_FORK) {
 }
 
 let config: HardhatUserConfig = {
-  defaultNetwork: "meter_test",
+  defaultNetwork: "gw_v1_1",
   networks: {
     hardhat: {
       deploy: ["./deploy/mainnet/"],
@@ -49,6 +49,12 @@ let config: HardhatUserConfig = {
       //   ethAccountLockCodeHash: "",
       //   delayAfterDeploy: true,
       // },
+    },
+    gw_v1_1: {
+      url: `https://godwoken-testnet-v1.ckbapp.dev`,
+      chainId: 71401,
+      accounts: [`${process.env.PRIVATE_KEY}`],
+      deploy: ["./deploy/gw_v1_1"],
     },
     aurora_test: {
       url: "https://testnet.aurora.dev/",
