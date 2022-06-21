@@ -8,12 +8,12 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const { deployer } = await getNamedAccounts()
 
   if (isTestNetwork(await getChainId())) {
-    await deploy("SwapV1", {
+    await deploy("Swap", {
       from: deployer,
       log: true,
       libraries: {
-        SwapUtilsV1: (await get("SwapUtilsV1")).address,
-        AmplificationUtilsV1: (await get("AmplificationUtilsV1")).address,
+        SwapUtils: (await get("SwapUtils")).address,
+        AmplificationUtils: (await get("AmplificationUtils")).address,
       },
       skipIfAlreadyDeployed: true,
     })
