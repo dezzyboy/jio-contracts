@@ -17,7 +17,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
       (await get("USDC")).address,
       (await get("BUSD")).address,
     ]
-    const TOKEN_DECIMALS = [18, 18, 18]
+    const TOKEN_DECIMALS = [18, 6, 18]
     const LP_TOKEN_NAME = "Jio DAI/USDC/BUSD"
     const LP_TOKEN_SYMBOL = "jioUSD"
     const INITIAL_A = 200

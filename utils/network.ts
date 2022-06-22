@@ -13,7 +13,6 @@ export const CHAIN_ID = {
   AURORA_TEST: "1313161555",
   Emerald_TEST: "42261",
   Meter_TEST: "83",
-  HPB: "269",
 }
 
 export function isMainnet(networkId: string): boolean {
@@ -35,7 +34,6 @@ export function isTestNetwork(networkId: string): boolean {
     networkId == CHAIN_ID.RINKEBY ||
     networkId == CHAIN_ID.AURORA_TEST ||
     networkId == CHAIN_ID.Emerald_TEST ||
-    networkId == CHAIN_ID.Meter_TEST ||
-    networkId == CHAIN_ID.HPB
+    networkId == CHAIN_ID.Meter_TEST
   )
 }

@@ -8,7 +8,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const { libraryDeployer } = await getNamedAccounts()
 
   if (isTestNetwork(await getChainId())) {
-    await deploy("LPTokenV1", {
+    await deploy("LPToken", {
       from: libraryDeployer,
       log: true,
       skipIfAlreadyDeployed: true,

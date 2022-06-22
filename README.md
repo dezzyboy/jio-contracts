@@ -22,38 +22,33 @@ $ npm i
 $ npm run build
 ```
 
-``` 
-Deployed tesnet contracts on Godwoken
-┌─────────┬────────────────────────┬──────────────────────────────────────────────┐
-│ (index) │           0            │                      1                       │
-├─────────┼────────────────────────┼──────────────────────────────────────────────┤
-│    0    │      'LPTokenV1'       │ '0xA46Df89094ee1Cf4792655B5ad9b27e250aEcD28' │
-│    1    │       'LPToken'        │ '0xAf9415DCBc96e2b6b15DA96d90Fd2236095C0DDB' │
-│    2    │ 'AmplificationUtilsV1' │ '0x4e613A4560F7fE1f75314eE1486fA2FFffB729f7' │
-│    3    │  'AmplificationUtils'  │ '0x63227ee8c98d91405BB6446267eA2C5b5E807bFb' │
-│    4    │    'MetaSwapUtils'     │ '0xec6BdB456dd316cbB769c5d69a12f95439a0175e' │
-│    5    │     'SwapUtilsV1'      │ '0x11080f644caB7E93F534241Bba9b1Ee5e7d5D8Fa' │
-│    6    │      'SwapUtils'       │ '0x97Ea9E3354d96a7b3A789E0741FE84a3C08C1617' │
-│    7    │    'SwapDeployerV1'    │ '0xc0ea015806D2E91cB31Ba090B10E59B19F9edF37' │
-│    8    │     'SwapDeployer'     │ '0xf9bFDaf91c0dC038edf6Ac281eDcF8637Ed80908' │
-│    9    │        'SwapV1'        │ '0x83f7C46f90caF6999f757356CEE70293fD4Bace1' │
-│   10    │         'Swap'         │ '0x27D0EC0a7e6d88E012071e5c108c0B96a3F0Aedf' │
-│   11    │   'SwapFlashLoanV1'    │ '0xD9095f5Ea572E636ce8735dE734169739ff6CD92' │
-│   12    │    'SwapFlashLoan'     │ '0x880a7B369A51f41f229Ca7a9E830a7ba4cE26b58' │
-│   13    │         'DAI'          │ '0x5D88d62E4fc1C5cFF1C6C71826D216c9DD68282a' │
-│   14    │         'USDC'         │ '0x8eDFfa2b2d04981d799392d41C887Eefd5903663' │
-│   15    │         'BUSD'         │ '0xb65897eF2448cc44BA1DEa4497812457497C4d74' │
-│   16    │      'Multicall'       │ '0x2A6a5315a046A795132b8bAc831766cAf27575eA' │
-│   17    │      'Multicall2'      │ '0x36551241F7EFCFC118801773Ebf13f87032ee7a2' │
-│   18    │         'USDT'         │ '0xb9731D6dFd8ec254295776b9F0A6e0347b22F997' │
-│   19    │     'JioUSD4Pool'      │ '0xE22103552561980d6880DDeff01fC39823aD68b5' │
-│   20    │  'JioUSD4PoolLPToken'  │ '0x29944C66238171f3Be87F307f05689970B044Eeb' │
-│   21    │      'JioUSDPool'      │ '0xF32Ae1FDcD8128d57aB748B042c2f79245bb58E6' │
-│   22    │  'JioUSDPoolLPToken'   │ '0x491a1AE69EFe6A8F77B0C5F380baD2870D06e736' │
-│   23    │       'Vesting'        │ '0x5901bD492d18EF81228F782De2FBBf74ceCEDAdd' │
-│   24    │         'JIO'          │ '0xEBb9863a619B5DF1cAfA0De7C64aC1c0553285D5' │
-│   25    │      'MiniChefV2'      │ '0xB5b248AfdA831681c58143bc40927e5bA1071981' │
-└─────────┴────────────────────────┴──────────────────────────────────────────────┘
+ Deployed tesnet contracts on Godwoken
+┌─────────┬──────────────────────┬──────────────────────────────────────────────┐
+│ (index) │          0           │                      1                       │
+├─────────┼──────────────────────┼──────────────────────────────────────────────┤
+│    0    │ 'AmplificationUtils' │ '0x62ccDad42de7B2DE428a55c29d6B7D01e9278772' │
+│    1    │        'BUSD'        │ '0x31D56EA29aEded3A17f0304301D5d4E3074d6049' │
+│    2    │        'DAI'         │ '0x8aab5FE56f0aD4500BD8e3aE1Fc84ec4c634fE4C' │
+│    3    │        'JIO'         │ '0xb5727223892A38d2Ef7Ca7365dcaC9970A63E82e' │
+│    4    │      'LPToken'       │ '0x8f8Be4f77Ed3B03498E4Ca42a0F7650CDa9C5462' │
+│    5    │     'Multicall2'     │ '0x011Ce274EdfaFC06C820045Df8de8e55BCDD2432' │
+│    6    │        'Swap'        │ '0xC2AB36719B1E79Ce3AEC3f434A6b2D3034fB8e78' │
+│    7    │    'SwapDeployer'    │ '0x528507d48D462599362fEB20528Ec6290a290CA1' │
+│    8    │   'SwapFlashLoan'    │ '0xEC617b4De52e1e547C8159031833990349385f12' │
+│    9    │     'SwapUtils'      │ '0xd99C3026FC7565abf65228504F55357fA784A126' │
+│   10    │        'USDC'        │ '0xFA5F1f1Ac6583B8ce8883094A3535ce9c6Bf98E5' │
+│   11    │      'Vesting'       │ '0x7af1A0DbCD42D5072ad7c1972B33D370ae2d980E' │
+│   12    │        'USDT'        │ '0xdCf13035fEA06734362e4268894d17fE171D5ecE' │
+│   13    │    'JioUSD4Pool'     │ '0xF091162E536d580421f5bE1430218dD119F9F9E1' │
+│   14    │ 'JioUSD4PoolLPToken' │ '0x6C5a796ec599783a67A66eDD8D41222eF8f55eF1' │
+│   15    │     'JioUSDPool'     │ '0xE168B220211d57D9E411DADc526ac96A44B84688' │
+│   16    │ 'JioUSDPoolLPToken'  │ '0xfFB4fC3848B89CeC44413f471b2Aa01677cd1bC9' │
+│   17    │        'WBTC'        │ '0x075bbB1562f3eBEcB5D2eFa1941FD9a98a1FaB4F' │
+│   18    │        'JBTC'        │ '0x5a1E1D513e912F399533E5287A7d6DC68e72281a' │
+│   19    │     'MiniChefV2'     │ '0xA02a24f2736ff04bD3cf232502B0dbEF52397aE3' │
+└─────────┴──────────────────────┴──────────────────────────────────────────────┘
+
+
 
 Deployed testnet contracts on FTM
 ┌─────────┬──────────────────────┬──────────────────────────────────────────────┐

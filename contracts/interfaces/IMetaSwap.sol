@@ -3,7 +3,6 @@
 pragma solidity 0.6.12;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "./ISwap.sol";
 
 interface IMetaSwap {
     // pool data view functions
@@ -48,27 +47,16 @@ interface IMetaSwap {
     ) external view returns (uint256 availableTokenAmount);
 
     // state modifying functions
-    function initialize(
-        IERC20[] memory _pooledTokens,
-        uint8[] memory decimals,
-        string memory lpTokenName,
-        string memory lpTokenSymbol,
-        uint256 _a,
-        uint256 _fee,
-        uint256 _adminFee,
-        address lpTokenTargetAddress
-    ) external;
-
     function initializeMetaSwap(
-        IERC20[] memory _pooledTokens,
+        IERC20[] memory pooledTokens,
         uint8[] memory decimals,
         string memory lpTokenName,
         string memory lpTokenSymbol,
-        uint256 _a,
-        uint256 _fee,
-        uint256 _adminFee,
+        uint256 a,
+        uint256 fee,
+        uint256 adminFee,
         address lpTokenTargetAddress,
-        ISwap baseSwap
+        address baseSwap
     ) external;
 
     function swap(
@@ -111,4 +99,17 @@ interface IMetaSwap {
         uint256 maxBurnAmount,
         uint256 deadline
     ) external returns (uint256);
+
+    function swapStorage()
+        external
+        view
+        returns (
+            uint256 initialA,
+            uint256 futureA,
+            uint256 initialATime,
+            uint256 futureATime,
+            uint256 swapFee,
+            uint256 adminFee,
+            address lpToken
+        );
 }

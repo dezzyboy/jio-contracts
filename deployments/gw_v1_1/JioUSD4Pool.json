@@ -1,5 +1,5 @@
 {
-  "address": "0xc3296bA34b268f44B554C48e988eb7b38d4d2D8B",
+  "address": "0xF091162E536d580421f5bE1430218dD119F9F9E1",
   "abi": [
     {
       "anonymous": false,
@@ -99,19 +99,6 @@
         }
       ],
       "name": "NewSwapFee",
-      "type": "event"
-    },
-    {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": false,
-          "internalType": "uint256",
-          "name": "newWithdrawFee",
-          "type": "uint256"
-        }
-      ],
-      "name": "NewWithdrawFee",
       "type": "event"
     },
     {
