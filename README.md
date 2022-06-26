@@ -26,28 +26,26 @@ $ npm run build
 ┌─────────┬──────────────────────┬──────────────────────────────────────────────┐
 │ (index) │          0           │                      1                       │
 ├─────────┼──────────────────────┼──────────────────────────────────────────────┤
-│    0    │ 'AmplificationUtils' │ '0x62ccDad42de7B2DE428a55c29d6B7D01e9278772' │
-│    1    │        'BUSD'        │ '0x31D56EA29aEded3A17f0304301D5d4E3074d6049' │
-│    2    │        'DAI'         │ '0x8aab5FE56f0aD4500BD8e3aE1Fc84ec4c634fE4C' │
+│    0    │        'BUSD'        │ '0x31D56EA29aEded3A17f0304301D5d4E3074d6049' │
+│    1    │        'DAI'         │ '0x8aab5FE56f0aD4500BD8e3aE1Fc84ec4c634fE4C' │
+│    2    │        'JBTC'        │ '0x5a1E1D513e912F399533E5287A7d6DC68e72281a' │
 │    3    │        'JIO'         │ '0xb5727223892A38d2Ef7Ca7365dcaC9970A63E82e' │
-│    4    │      'LPToken'       │ '0x8f8Be4f77Ed3B03498E4Ca42a0F7650CDa9C5462' │
-│    5    │     'Multicall2'     │ '0x011Ce274EdfaFC06C820045Df8de8e55BCDD2432' │
-│    6    │        'Swap'        │ '0xC2AB36719B1E79Ce3AEC3f434A6b2D3034fB8e78' │
-│    7    │    'SwapDeployer'    │ '0x528507d48D462599362fEB20528Ec6290a290CA1' │
-│    8    │   'SwapFlashLoan'    │ '0xEC617b4De52e1e547C8159031833990349385f12' │
-│    9    │     'SwapUtils'      │ '0xd99C3026FC7565abf65228504F55357fA784A126' │
-│   10    │        'USDC'        │ '0xFA5F1f1Ac6583B8ce8883094A3535ce9c6Bf98E5' │
-│   11    │      'Vesting'       │ '0x7af1A0DbCD42D5072ad7c1972B33D370ae2d980E' │
-│   12    │        'USDT'        │ '0xdCf13035fEA06734362e4268894d17fE171D5ecE' │
-│   13    │    'JioUSD4Pool'     │ '0xF091162E536d580421f5bE1430218dD119F9F9E1' │
-│   14    │ 'JioUSD4PoolLPToken' │ '0x6C5a796ec599783a67A66eDD8D41222eF8f55eF1' │
-│   15    │     'JioUSDPool'     │ '0xE168B220211d57D9E411DADc526ac96A44B84688' │
-│   16    │ 'JioUSDPoolLPToken'  │ '0xfFB4fC3848B89CeC44413f471b2Aa01677cd1bC9' │
-│   17    │        'WBTC'        │ '0x075bbB1562f3eBEcB5D2eFa1941FD9a98a1FaB4F' │
-│   18    │        'JBTC'        │ '0x5a1E1D513e912F399533E5287A7d6DC68e72281a' │
-│   19    │     'MiniChefV2'     │ '0xA02a24f2736ff04bD3cf232502B0dbEF52397aE3' │
-└─────────┴──────────────────────┴──────────────────────────────────────────────┘
-
+│    4    │     'Multicall2'     │ '0x011Ce274EdfaFC06C820045Df8de8e55BCDD2432' │
+│    5    │      'Vesting'       │ '0x7af1A0DbCD42D5072ad7c1972B33D370ae2d980E' │
+│    6    │        'WBTC'        │ '0x075bbB1562f3eBEcB5D2eFa1941FD9a98a1FaB4F' │
+│    7    │      'LPToken'       │ '0xF906aFd81047390938341108a3924C1B340e9030' │
+│    8    │ 'AmplificationUtils' │ '0x4F6fCF7Dd0107Ae6838b290028AB85b4c9a7ef53' │
+│    9    │     'SwapUtils'      │ '0x5ce3d1a9Aba606169034A58D9326158EB5d19F2B' │
+│   10    │    'SwapDeployer'    │ '0x13fA93E59EE327A2743D01325bbAf3C4C8CcD011' │
+│   11    │        'Swap'        │ '0xe12015E2eb4B0695d826b599e59a82288F11e886' │
+│   12    │   'SwapFlashLoan'    │ '0xCF83B024493FD8046a08F08D56E612bCc24e9908' │
+│   13    │        'USDC'        │ '0x11A3893836e2D723E0326457E5e9E2466281FEE5' │
+│   14    │        'USDT'        │ '0xA2a85cB98bF8ad7B8CA510bc998F8D15a1aeD46d' │
+│   15    │    'JioUSD4Pool'     │ '0x71b5e58E1a207eAc5B2d279506c6B2dBc6E2E8DE' │
+│   16    │ 'JioUSD4PoolLPToken' │ '0x7487D766eC76c92B26C16297807F8Cd12837ab6e' │
+│   17    │     'JioUSDPool'     │ '0xbB463d2f58B45Cf59F53323099f90EfC95ED21FE' │
+│   18    │ 'JioUSDPoolLPToken'  │ '0xa45829C907eE446128aaB91BD91c66BC38803449' │
+│   19    │     'MiniChefV2'     │ '0xab3b6FC1B2FA233E4a8b0B1Fc1F221eA6e1a38BE' │
 
 
 Deployed testnet contracts on FTM
