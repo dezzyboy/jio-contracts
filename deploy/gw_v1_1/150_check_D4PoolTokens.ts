@@ -6,8 +6,8 @@ import { BigNumber } from "ethers"
 const USD_TOKENS_ARGS: { [token: string]: any[] } = {
   BUSD: ["BUSD Token", "BUSD", "18"],
   DAI: ["Dai Token", "DAI", "18"],
-  USDC: ["USD Coin", "USDC", "6"],
-  USDT: ["USDT", "USDT ", "6"],
+  USDC: ["USD Coin", "USDC", "18"],
+  USDT: ["USDT", "USDT ", "18"],
 }
 
 const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {

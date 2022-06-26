@@ -14,11 +14,11 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     // Constructor arguments
     const TOKEN_ADDRESSES = [
       (await get("DAI")).address,
-      (await get("USDC")).address,
       (await get("BUSD")).address,
+      (await get("USDC")).address,
     ]
-    const TOKEN_DECIMALS = [18, 6, 18]
-    const LP_TOKEN_NAME = "Jio DAI/USDC/BUSD"
+    const TOKEN_DECIMALS = [18, 18, 18]
+    const LP_TOKEN_NAME = "Jio DAI/BUSD/USDC"
     const LP_TOKEN_SYMBOL = "jioUSD"
     const INITIAL_A = 200
     const SWAP_FEE = 10e6 // 4bps
