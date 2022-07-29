@@ -9,7 +9,7 @@
     "declaration": true,
     "sourceMap": true
   },
-  "include": ["./deploy", "./test", "./scripts", "./build/typechain"],
+  "include": ["./deploy", "./test", "./scripts", "./build/typechain", "non-test/metaPool_Inflated_BP_VP.ts", "non-test/metaSwapDecimals.ts", "non-test/metaSwapDeposit.ts", "non-test/metaPoolHighAdminFees_Inflated_BP_VP.ts", "non-test/metaPoolAdminFees_Inflated_BP_VP.ts", "non-test/metaSwap.ts"],
   "files": [
     "./hardhat.config.ts",
   ]

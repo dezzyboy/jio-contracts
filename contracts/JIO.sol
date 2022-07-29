@@ -17,8 +17,8 @@ import "./SimpleGovernance.sol";
 contract JIO is ERC20Permit, Pausable, SimpleGovernance {
     using SafeERC20 for IERC20;
 
-    // Token max supply is 1,000,000,000 * 1e18 = 1e27
-    uint256 public constant MAX_SUPPLY = 1e8 ether;
+    // Token max supply is 222,000,000 * 1e18 = 2.22e26
+    uint256 public constant MAX_SUPPLY = 222e6 ether;
     uint256 public immutable govCanUnpauseAfter;
     uint256 public immutable anyoneCanUnpauseAfter;
     address public immutable vestingContractTarget;
