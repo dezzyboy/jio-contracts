@@ -20,10 +20,10 @@ if (process.env.HARDHAT_FORK) {
 }
 
 let config: HardhatUserConfig = {
-  defaultNetwork: "gw_v1_1",
+  defaultNetwork: "hardhat",
   networks: {
     hardhat: {
-      deploy: ["./deploy/mainnet/"],
+      deploy: ["./deploy/godwoken/"],
     },
     meter_test: {
       url: `https://rpctest.meter.io/`,
@@ -38,17 +38,10 @@ let config: HardhatUserConfig = {
       deploy: ["./deploy/emerald_test"],
     },
     godwoken: {
-      url: `https://godwoken-testnet-web3-v1-rpc.ckbapp.dev`,
-      chainId: 868455272153094,
+      url: `https://v1.mainnet.godwoken.io/rpc`,
+      chainId: 71402,
       accounts: [`${process.env.PRIVATE_KEY}`],
       deploy: ["./deploy/godwoken"],
-      // godwokenConfig: {
-      //   privateKey:
-      //     "",
-      //   rollupTypeHash: "",
-      //   ethAccountLockCodeHash: "",
-      //   delayAfterDeploy: true,
-      // },
     },
     gw_v1_1: {
       url: `https://godwoken-testnet-v1.ckbapp.dev`,

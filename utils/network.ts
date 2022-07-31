@@ -13,13 +13,14 @@ export const CHAIN_ID = {
   AURORA_TEST: "1313161555",
   Emerald_TEST: "42261",
   Meter_TEST: "83",
+  GODWOKEN: "71402",
 }
 
 export function isMainnet(networkId: string): boolean {
   return (
     networkId == CHAIN_ID.FTM_MAIN ||
     networkId == CHAIN_ID.TESTNET ||
-    networkId == CHAIN_ID.BSC_TEST
+    networkId == CHAIN_ID.GODWOKEN
   )
 }
 
